@@ -1,0 +1,29 @@
+Vegetarian curries:
+Paneer butter masala-16oz-$5.00
+Paneer butter masala-32oz-$9.00
+Mushroom curry-16oz-$5.00
+Mushroom curry-32oz-$8.00
+Dal makhani-16oz-$4.00
+Dal makhani-32oz-$7.00
+Channa masala-16oz-$4.00
+Channa masala-32oz-$7.00
+Saag paneer-16oz-$5.00
+Saag paneer-32oz-$9.00
+
+Non veg curries:
+Chicken curry-16oz-$5.00
+Chicken curry-32oz-$8.00
+Mutton curry-16oz-$6.00
+Mutton curry-32oz-$10.00
+Kongunadu chicken kulambu-16oz-$5.00
+Kongunadu chicken kulambu-32oz-$8.00
+Pallipalayam chicken sukka-16oz-$6.00
+Pallipalayam chicken sukka-32oz-$10.00
+Chettinad chicken-16oz-$5.00
+Chettinad chicken-32oz-$10.00
+
+Accompaniments:
+Dosa-1-$0.50
+Chapathi-1-$0.40
+Paratha-1-$1.00
+Idli-1-$0.25 

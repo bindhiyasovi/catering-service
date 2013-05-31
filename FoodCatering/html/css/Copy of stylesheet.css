@@ -1,0 +1,261 @@
+div{
+	border-radius:10px;
+}
+
+#header{
+	position:absolute;
+	margin:0 0 2% 0;
+	width:80%;
+	left:200px;
+	background:#DAA520;
+	height:250px;
+}
+
+#header h1 {
+			margin-left:10px;
+			top: 1px;
+			bottom:200px;
+			color: #fff;
+			font-size: 4.4em;
+			letter-spacing: -2px;
+			font-family:papyrus;
+			float:left;
+}
+
+.container {
+			position:absolute;
+			width: 100%; 
+			margin: 10px auto;
+			border-radius:10px;
+}
+ul.tabs {
+		margin-right:10px;
+		margin-top: 160px;
+		line-height: 84px;
+		font-size: 1.3em;
+		letter-spacing: -1px;
+		float:right;
+    	height: 32px;
+}
+ul.tabs li {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    position: relative;
+}
+ul.tabs li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 1.2em;
+    padding: 0 20px;
+    outline: none;
+}
+ul.tabs li a:hover {
+    background: #ccc;
+}   
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+.tab_container {
+	position:relative;
+	top:25px;
+    border-top: none;
+    clear: both;
+    width: 100%;
+    background: black;
+    height:700px;
+}
+.tab_content {
+    padding: 20px;
+    font-size: 1.2em;
+}
+#content_2, #content_3, #content_4{
+	display:none;
+}
+
+.tab_content h2 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 1.8em;
+}
+
+#slideshow{
+	position:absolute;
+	width:80%;
+	background:gray;
+	height:650px;
+	border-radius:10px;
+	left:150px;	
+	top:25px;
+	
+	-moz-box-shadow:0 0 22px #111;
+	-webkit-box-shadow:0 0 22px #111;
+	box-shadow:0 0 22px #111;
+}
+
+#slideshow ul{
+	height:600px;
+	left:200px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	width:800px;
+}
+
+#slideshow li{
+	position:absolute;
+	display:none;
+	z-index:10;
+}
+
+#slideshow li:first-child{
+	display:block;
+	z-index:1000;
+}
+
+#slideshow .slideActive{
+	z-index:1000;
+}
+
+#slideshow canvas{
+	display:none;
+	position:absolute;
+	z-index:100;
+}
+
+#slideshow .arrow{
+	height:86px;
+	width:60px;
+	position:absolute;
+	background:url('img/arrows.png') no-repeat;
+	top:50%;
+	margin-top:-43px;
+	cursor:pointer;
+	z-index:5000;
+}
+
+#slideshow .previous{ background-position:left top;left:0;}
+#slideshow .previous:hover{ background-position:left bottom;}
+
+#slideshow .next{ background-position:right top;right:0;}
+#slideshow .next:hover{ background-position:right bottom;}
+
+#content_2{
+	height:600px;
+}
+
+#about{
+	position:absolute;
+	width:95%;
+	height:625px;
+	border-radius:10px;
+	left:45px;	
+	top:35px;
+	background:#A9A9A9;
+	
+	-moz-box-shadow:0 0 22px #111;
+	-webkit-box-shadow:0 0 22px #111;
+	box-shadow:0 0 22px #111;
+}
+
+.about_data{
+		font-family:comic sans;
+		letter-spacing:1px;
+		margin-left:15px;
+		width:80%;
+		margin-left:125px;	
+		margin-top:100px;
+}
+
+#menu{
+	position:absolute;
+	width:80%;
+	height:650px;
+	border-radius:10px;
+	left:150px;	
+	top:25px;
+}
+
+#menu h1{
+	font-size:2.3em;
+	color:#B8860B;
+	align:center;
+	margin-left:525px;
+	margin-top:20px;
+}
+#table{
+	border:none;
+}
+
+#tiffin{
+	height:250px;
+	left:125px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:100px;
+	width:300px;
+}
+
+#veg_curry{
+	height:250px;
+	left:475px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:100px;
+	width:300px;
+}
+
+#nonveg_curry{
+	height:250px;
+	left:825px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:100px;
+	width:300px;
+}
+#rice{
+	height:250px;
+	left:125px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:375px;
+	width:300px;
+}
+#appetizer{
+	height:250px;
+	left:475px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:375px;
+	width:300px;
+}
+
+#roti{
+	height:250px;
+	left:825px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:375px;
+	width:300px;
+}
+
+#contact{
+	background:#A9A9A9;
+	position:absolute;
+	width:80%;
+	height:650px;
+	border-radius:10px;
+	left:150px;	
+	top:25px;
+}
